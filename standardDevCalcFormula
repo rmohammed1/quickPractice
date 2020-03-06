@@ -1,0 +1,5 @@
+#A simple Standard Deviation Formula Calculator with input -
+import numpy as np
+a,b,c,d,e,f=[float(x) for x in input('Please insert the values followed by space --> ').split()]
+sdv = np.sqrt((((a-b)**2)+((c-d)**2)+((e-f)**2))/2)
+print(sdv)
